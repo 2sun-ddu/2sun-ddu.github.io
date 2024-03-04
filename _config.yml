@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: 딩동유 개발 블로그 # the main title
 
-tagline: 초대 딩동유의 개발자들의 공간 # it will display as the sub-title
+tagline: 초대 딩동유 개발자들의 공간 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   초대, 초대장, 딩동유, DDU, dingdongu, flutter, web, frontend, backend
