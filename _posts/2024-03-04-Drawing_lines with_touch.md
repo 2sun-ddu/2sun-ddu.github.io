@@ -3,6 +3,7 @@ layout: post
 title:  "Drawing lines with screen touch"
 tags: [flutter, CustomPainter, touch, draw, line]
 categories: [flutter]
+author: frnd
 ---
 
 
