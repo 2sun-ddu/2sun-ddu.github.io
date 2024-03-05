@@ -34,4 +34,3 @@ for (var i = 0; i < offsets.length - 1; ++i) {
   }  
 }
 ```
-	RepaintBoundary알아보기
