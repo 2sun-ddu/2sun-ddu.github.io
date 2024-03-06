@@ -7,7 +7,8 @@ order: 4
 
 ### 소개
 
-<p align="center"> <img src="https://contents.dt.co.kr/images/202312/2023120402109923088002[1].jpg"> </p>
+![ddu](https://contents.dt.co.kr/images/202312/2023120402109923088002[1].jpg)
+
 
 
 초대딩동유는 다양한 이벤트 및 약속에 대한 초대장을 만들고 공유할 수 있는 모바일 앱입니다.
