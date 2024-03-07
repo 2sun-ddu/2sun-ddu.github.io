@@ -1,3 +1,13 @@
+---
+layout: post
+title:  "Flutter에서 HTTP Interceptor 활용하기"
+tags: [flutter, http, interceptor]
+categories: [flutter]
+author: frnd
+---
+
+
+
 ## Flutter에서 HTTP Interceptor 활용하기
 
 ### 서론
