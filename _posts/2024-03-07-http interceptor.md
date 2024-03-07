@@ -71,4 +71,4 @@ void main() async {
 
 HTTP Interceptor는 Flutter 개발에서 HTTP 통신을 더욱 효율적이고 안정적으로 만들어주는 강력한 도구입니다. 다양한 기능을 활용하여 개발 생산성을 높이고, 앱의 안정성을 향상시킬 수 있습니다.
 
-**하지만 DDU에서는 dio 쓰지롱 😱**
+> 하지만 DDU에서는 dio를 쓰지롱 😱
