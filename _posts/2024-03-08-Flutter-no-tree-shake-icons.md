@@ -32,7 +32,3 @@ author: frnd
 
 `--no-tree-shake-icons` 플래그는 앱 크기와 안정성 사이의 균형을 맞추는 데 유용한 도구입니다. 앱의 특성과 요구 사항에 따라 플래그 사용 여부를 결정하는 것이 중요합니다.
 
-**참고:**
-
-- Flutter 공식 문서 - Tree shaking: [유효하지 않은 URL 삭제됨]
-- Flutter 문제 추적 시스템 - This application cannot tree shake icons fonts: [유효하지 않은 URL 삭제됨]
