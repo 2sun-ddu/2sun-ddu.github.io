@@ -7,7 +7,7 @@ author: frnd
 ---
 
 
-## Flutter 빌드 시 `--no-tree-shake-icons` 플래그 사용 이유를 알아보자
+## Flutter 빌드 시 `--no-tree-shake-icons` 플래그 사용 이유를 알아보자!
 
 **Flutter 앱 빌드 시 `--no-tree-shake-icons` 플래그를 사용하는 이유는 아이콘 폰트 트리 쉐이킹을 비활성화하기 위해서입니다.** 트리 쉐이킹은 Flutter에서 사용하지 않는 코드를 제거하여 앱 크기를 줄이는 최적화 기술입니다. 하지만 아이콘 폰트의 경우 트리 쉐이킹이 항상 효과적으로 작동하지 않을 수 있습니다.
 
