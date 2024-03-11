@@ -28,8 +28,7 @@ html {
 
 body {
   background: var(--main-bg);
-  padding: env(safe-area-inset-top) env(safe-area-inset-right)
-    env(safe-area-inset-bottom) env(safe-area-inset-left);
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   font-family: $font-family-base;
@@ -307,8 +306,12 @@ sup {
           @extend %table-cell;
         }
       }
-    } /* tbody */
-  } /* table */
+    }
+
+    /* tbody */
+  }
+
+  /* table */
 }
 
 /* --- post --- */
@@ -476,7 +479,9 @@ main {
       margin: 0 0.5rem 0.2rem -1.3rem;
       vertical-align: middle;
     }
-  } /* ul */
+  }
+
+  /* ul */
 
   dl > dd {
     margin-left: 1rem;
@@ -485,7 +490,9 @@ main {
   ::marker {
     color: var(--text-muted-color);
   }
-} /* .content */
+}
+
+/* .content */
 
 .tag:hover {
   @extend %tag-hover;
@@ -734,18 +741,20 @@ $btn-mb: 0.5rem;
   }
 
   #avatar {
-    display: block;
+    display: flex;
     width: 7rem;
     height: 7rem;
+    align-items: center;
     overflow: hidden;
     box-shadow: var(--avatar-border-color) 0 0 0 2px;
     transform: translateZ(0); /* fixed the zoom in Safari */
 
     img {
       transition: transform 0.5s;
+      transform: scale(1.8);
 
       &:hover {
-        transform: scale(1.2);
+        transform: scale(2.0);
       }
     }
   }
@@ -896,8 +905,12 @@ $btn-mb: 0.5rem;
       border-radius: 50%;
       margin-bottom: $btn-mb;
     }
-  } /* .sidebar-bottom */
-} /* #sidebar */
+  }
+
+  /* .sidebar-bottom */
+}
+
+/* #sidebar */
 
 @media (hover: hover) {
   #sidebar ul > li:last-child::after {
@@ -954,7 +967,9 @@ $btn-mb: 0.5rem;
       }
     }
   }
-} /* #topbar */
+}
+
+/* #topbar */
 
 ::-webkit-input-placeholder {
   @include placeholder;
@@ -1102,7 +1117,9 @@ search {
       -webkit-box-orient: vertical;
     }
   }
-} /* #search-results */
+}
+
+/* #search-results */
 
 #topbar-title {
   display: none;
@@ -1368,7 +1385,9 @@ search {
       margin-top: 2.5rem;
     }
   }
-} /* max-width: 849px */
+}
+
+/* max-width: 849px */
 
 /* Sidebar is visible */
 @media all and (min-width: 850px) {
@@ -1556,4 +1575,6 @@ search {
       }
     }
   }
-} /* min-width: 1650px */
+}
+
+/* min-width: 1650px */
