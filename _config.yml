@@ -28,8 +28,10 @@ url: "https://2sun-ddu.github.io"
 github:
   username: 2sun-ddu # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
+# twitter:
+#   username: twitter_username # change to your twitter username
+instagram:
+  username: _dduing_
 
 social:
   # Change to your full name.
