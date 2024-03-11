@@ -10,6 +10,10 @@ platforms:
     icon: "fab fa-facebook-square"
     link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL"
 
+  - type: Instagram
+    icon: "fab fa-instagram"
+    link: "https://www.instagram.com/_dduing_"
+
   - type: Telegram
     icon: "fab fa-telegram"
     link: "https://t.me/share/url?url=URL&text=TITLE"
