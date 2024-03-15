@@ -14,6 +14,7 @@ Flutter에서 `Scaffold` 위젯은 앱의 기본 레이아웃을 제공합니다
 
 다음 예제는 `ExtendBodyBehindAppBar` 속성을 사용하여 본문 콘텐츠를 `AppBar` 뒤로 확장하는 방법을 보여줍니다.
 
+Dart
 ```dart
 import 'package:flutter/material.dart';
 
@@ -57,6 +58,7 @@ class MyHomePage extends StatelessWidget {
    );
  }
 }
+'''
 
 위 예제에서는 다음과 같은 단계를 따릅니다:
 
