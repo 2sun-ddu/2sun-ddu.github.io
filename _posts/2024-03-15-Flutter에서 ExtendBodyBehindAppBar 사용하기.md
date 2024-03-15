@@ -58,7 +58,7 @@ class MyHomePage extends StatelessWidget {
    );
  }
 }
-'''
+```
 
 위 예제에서는 다음과 같은 단계를 따릅니다:
 
