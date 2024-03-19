@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://2sun-ddu.github.io/sitemap.xml
